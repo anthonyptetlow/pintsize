@@ -1,6 +1,26 @@
 /*-------------------------------------------------------*\
     Grid
 /*-------------------------------------------------------*/
+.section {
+
+    padding: 4rem 0;
+    text-align: center;
+
+    @include break-at(640px){
+
+        padding: 5rem 0;
+        text-align: left;
+
+    }
+
+    @include break-at(1200px){
+
+        padding: 5rem 0 9rem 0;
+
+    }
+
+}
+
 
 .container {
 
