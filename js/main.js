@@ -39,3 +39,13 @@ if(!Modernizr.svg) {
       var inter = setInterval(generateBubble, 500);
 
 })();
+
+
+//ga
+
+$('[data-download-button]').on('click', function(){
+
+	ga('send', 'event', 'Pintsize Download', $(this).attr('data-download-button')); 
+
+});
+
