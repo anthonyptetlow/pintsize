@@ -104,6 +104,13 @@
 
 }
 
+.configure {
+	
+	height: 70px;
+	width: 50px;
+
+}
+
 .scalable {
 
 	width: 51px;
@@ -125,7 +132,8 @@
 
 }
 
-.get-started {
+.get-started,
+.whats-included {
 
 	background: #f1f1f1;
 
@@ -153,6 +161,11 @@ pre, code {
     font-family: 'Monaco', courier, monospace;
 }
 
+.gist-file pre {
+
+	color: #222222;
+
+}
 
 html, body {
 	height: 100%;
@@ -201,8 +214,6 @@ body {
     bottom: 120%;
   }
 }
-
-
 
 
 

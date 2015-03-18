@@ -63,26 +63,31 @@
                 
                 <h2>Features</h2>
 
-                <p class="headline">Pintsize is the ideal place to start your next web project. As well as providing you with the basics to get started quickly, its nice and tidy file structure makes it easy to scale your projects efficiently.</p>
+                <p class="headline">Pintsize is the ideal place to start your next web project. As well as providing you with the basics to get building quickly, it's nice and tidy file structure makes it easy to scale your projects efficiently.</p>
         
             </div>
 
             <div class="row u-center">
                 
-                <div class="col w-4">
+                <div class="col w-3">
                     <img src="images/icon-simple.svg" alt="" class="simple">
                     <h3>Simple</h3>
-                    <p>Translate artwork grid values to your build quickly. Takes care of the maths.</p>
+                    <p>Translate artwork grid values to your build quickly. Takes care of the maths for you.</p>
                 </div>
-                <div class="col w-4">
+                <div class="col w-3">
+                    <img src="images/icon-configure.svg" alt="" class="configure">
+                    <h3>Configurable</h3>
+                    <p>Choose from Basic usage to get building quickly or advanced usage to build semantically.</p>
+                </div>
+                <div class="col w-3">
                     <img src="images/icon-scalable.svg" alt="" class="scalable">
                     <h3>Scalable</h3>
                     <p>A nice and tidy structure designed to help scaleyour project to any size.</p>
                 </div>
-                <div class="col w-4">
+                <div class="col w-3">
                     <img src="images/icon-lightweight.svg" alt="" class="lightweight">
                     <h3>Lightweight</h3>
-                    <p>Everything you need to get started. Screw frameworks. No bloat, no nonsence.</p>
+                    <p>Everything you need to get started. Screw frameworks - no bloat, no nonsence!</p>
                 </div>
 
             </div>
@@ -103,7 +108,7 @@
                 
                 <h2>Get Started</h2>
 
-                <p>It's easy to get started. Just follow the steps below.</p>
+                <p>It's easy to get started. Just follow the steps below:</p>
 
             </div>
 
@@ -154,7 +159,7 @@
 
                     <h3>3. Configure</h3>
 
-                    <p>Enter the pixel grid values used in your artwork in _variables.scss file. Done!</p>
+                    <p>Enter the pixel grid values used in your artwork in the _variables.scss file.</p>
                     
                 </div>
 
@@ -199,8 +204,47 @@
         <div class="arrow-down grey"></div>
     </div>
 
-
     <div class="section">
+        
+        <div class="container">
+            
+            <div class="row u-center">
+                
+                <h2>Basic usage</h2>
+
+                <p>This is the default usage. The grid is calculated and classes are genrated for you to get building quickly.</p>
+
+            </div>
+
+            <div class="row">
+
+                    <script src="https://gist.github.com/alistairtweedie/9a3f295d4ad34bbaeec5.js"></script>
+
+            </div>
+
+            <div class="row u-center">
+                
+                <h2>Advanced usage</h2>
+
+                <p>By setting the $advanced-usage variable in _variables.scss to 'true' you can work with Pintsize more semantically.</p>
+
+            </div>
+
+            <div class="row">
+
+                    <script src="https://gist.github.com/alistairtweedie/3c8139a0ecfaf9fa1f82.js"></script>
+
+            </div> 
+
+        </div>
+
+    </div>
+
+    <div class="row u-center u-grey-b">
+        <div class="arrow-down white"></div>
+    </div>
+
+    <div class="section u-grey-b">
         
         <div class="container">
             
@@ -220,7 +264,7 @@
     </div>
 
     <footer>
-        <div class="section">
+        <div class="section u-grey-b">
 
             <div class="container">
 
@@ -231,13 +275,9 @@
                 </div>
 
             </div>
-        
+
         </div>
     </footer>    
-
-
-
-
 
 
 	<script src="js/vendor/modernizr.custom.min.js"></script>

@@ -18,6 +18,10 @@
 /*-------------------------------------------------------*\
     Mixins
 /*-------------------------------------------------------*/
+/*	Column width
+-------------------------------------------------------*/
+/*	Column push
+-------------------------------------------------------*/
 /*	Clearfix
 -------------------------------------------------------*/
 /*	Breakpoints
@@ -870,6 +874,10 @@ th:last-child, td:last-child {
   height: 70px;
   width: 61px; }
 
+.configure {
+  height: 70px;
+  width: 50px; }
+
 .scalable {
   width: 51px;
   height: 70px; }
@@ -881,7 +889,7 @@ th:last-child, td:last-child {
 .headline {
   font-size: 2rem; }
 
-.get-started {
+.get-started, .whats-included {
   background: #f1f1f1; }
 
 pre {
@@ -899,6 +907,9 @@ code {
 
 pre, code {
   font-family: 'Monaco', courier, monospace; }
+
+.gist-file pre {
+  color: #222222; }
 
 html, body {
   height: 100%; }
