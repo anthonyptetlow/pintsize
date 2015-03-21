@@ -19,7 +19,7 @@ h1 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 140px;
         font-size: 14rem;
@@ -38,7 +38,7 @@ h2 {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         font-size: 36px;
         font-size: 3.6rem;
@@ -50,7 +50,7 @@ h2 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 43px;
         font-size: 4.3rem;
@@ -74,7 +74,7 @@ h3 {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         font-size: 24px;
         font-size: 2.4rem;
@@ -86,7 +86,7 @@ h3 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 29px;
         font-size: 2.9rem;
@@ -109,7 +109,7 @@ h4 {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         font-size: 19px;
         font-size: 1.9rem;
@@ -121,7 +121,7 @@ h4 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 24px;
         font-size: 2.4rem;
@@ -146,7 +146,7 @@ h5 {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         font-size: 19px;
         font-size: 1.9rem;
@@ -158,7 +158,7 @@ h5 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 24px;
         font-size: 2.4rem;
@@ -183,7 +183,7 @@ h6 {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         font-size: 19px;
         font-size: 1.9rem;
@@ -195,7 +195,7 @@ h6 {
 
     }
 
-    @include break-at(1200px){
+    @include break-at(1200px) {
 
         font-size: 24px;
         font-size: 2.4rem;
@@ -216,7 +216,7 @@ p, ul, ol, pre, table, blockquote {
     margin-bottom: 21px;
     margin-bottom: 2.1rem;
 
-    @include break-at(640px){
+    @include break-at(640px) {
 
         margin-top: 24px;
         margin-top: 2.4rem;
@@ -225,7 +225,7 @@ p, ul, ol, pre, table, blockquote {
 
     }
 
-    @include break-at(1000px){
+    @include break-at(1000px) {
 
         margin-top: 30px;
         margin-top: 3rem;
